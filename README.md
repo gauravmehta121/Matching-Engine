@@ -1,4 +1,3 @@
-## Name: Shubham Prasad Singh
 
 ### Instruction on how to build and run the application
 The codebase contains a `run.sh` file in the root directory of the project. Please change its access mode using `chmod +x run.sh` command so that it can be run as an executable. On running this shell script, it will build a docker image, then build the source code (using `make build` cmd) and then execute the `match_engine` binary. As mentioned in the Runtime Requirements section of the assignment, the run.sh script is capable of accepting piped input. A sample_input.txt file is also present in the root directory of the project.
